@@ -1,0 +1,134 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat';
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+/***** SECTIONS *****/
+.top-section, .bottom-section {
+    clear: both;
+    margin: 0 auto;
+}
+.main-image {
+    height: auto;
+    float: left;
+}
+.specials, .reviews, .contact {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    width: 380px;
+    float: left;
+    height: 210px;
+    padding-top: 10px;
+}
+/***** HEADER *****/
+header {
+    height: 110px;
+}
+header h1 { 
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 23px;
+    padding: 25px 0 0;
+}
+header h1 span {
+    color: #77a466;
+}
+nav {
+    float: right;
+    padding: 35px 0px 0;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color:  #77a466;
+    line-height: 23px;
+    padding-left: 25px;
+}    
+/*****TOP SECTION*****/
+.top-section #hero-image {
+    height: auto;
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+.top-section h2 {
+    color: #77a466;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.top-section p {
+    font-size: 16px;
+    line-height: 25px;
+}
+/***** BOTTOM SECTION *****/
+.specials h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.specials ul {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 0px;
+}
+.specials ul li {
+    display: block;
+}
+.reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    padding-left: 25px;
+}
+.reviews h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.reviews p{
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 50px;
+}
+.contact {
+    padding-left: 25px;
+}
+.contact h3 {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.contact p {
+    font-size: 16px;
+    line-height: 24px;
+}
+/***** FOOTER *****/
+#footer {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#footer span{
+    font-family: 'Galada';
+    color: #77a466;
+    text-transform: none;
+}
