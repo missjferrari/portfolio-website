@@ -485,14 +485,37 @@ footer .third-width {
     }
     
     #about p {
-        font-size: 1.5em;
+        font-size: 1.25em;
         margin: 0 150px 0 0;
         padding: 0;
     }  
     
-    /*CONTACT - Desktop*/
+    /*PORTFOLIO - Desktop*/
 
-    
+    #work h4 {
+        font-size: 1.5em;
+        font-weight: 300;
+        margin-top: 0;
+    }
+
+    #work h4 span {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    #work p {
+        font-size: 1.25em;
+    }
+
+    /*RESUME - Desktop*/
+
+    #resume p {
+        font-size: 1.25em;
+    }
+
+    #resume ul li {
+        font-size: 1.15em;
+    }
 
   }
   
